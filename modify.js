@@ -7,7 +7,7 @@ pageHeader.style.background = 'red';
 document.addEventListener('scroll', function() {
   let scrollPosition = window.scrollY;
 
-  // Change background color depending on scroll position
+  // Change background color depending on scroll position 
   if (scrollPosition > 100) {
       pageHeader.style.backgroundColor = 'red';
   } else {
